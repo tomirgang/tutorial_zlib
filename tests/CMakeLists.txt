@@ -8,6 +8,6 @@ FetchContent_MakeAvailable(catch)
 
 # Tests need to be added as executables first
 add_executable(testlib testlib.cpp)
-target_link_libraries(testlib PRIVATE project_core Catch2::Catch2)
+target_link_libraries(testlib PRIVATE tutorial_zlib_core Catch2::Catch2)
 
 add_test(NAME testlibtest COMMAND testlib)

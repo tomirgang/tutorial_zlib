@@ -1,5 +1,5 @@
-#include "project/version.hpp"
-#include "project/lib.hpp"
+#include "tutorial_zlib/version.hpp"
+#include "tutorial_zlib/lib.hpp"
 
 #include <iostream>
 #include <vector>

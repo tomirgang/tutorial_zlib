@@ -1,4 +1,4 @@
-#include <project/lib.hpp>
+#include <tutorial_zlib/lib.hpp>
 
 std::tuple<double, double> accumulate_vector(const std::vector<double>& values)
 {

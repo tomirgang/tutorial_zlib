@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15...4.0)
 
 project(
-    project
+    tutorial_zlib
     VERSION 1.0.0.0
     DESCRIPTION "C++ CMake Template"
     LANGUAGES CXX)
@@ -18,8 +18,8 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
     # Find packages go here.
 
     configure_file (
-      "${PROJECT_SOURCE_DIR}/include/project/version.hpp.in"
-      "${PROJECT_BINARY_DIR}/include/project/version.hpp"
+      "${PROJECT_SOURCE_DIR}/include/tutorial_zlib/version.hpp.in"
+      "${PROJECT_BINARY_DIR}/include/tutorial_zlib/version.hpp"
     )
     include_directories(${CMAKE_CURRENT_BINARY_DIR}/include)
 

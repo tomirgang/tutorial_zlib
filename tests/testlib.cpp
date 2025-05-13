@@ -1,7 +1,7 @@
 
 #define CATCH_CONFIG_MAIN
 #include <catch2/catch.hpp>
-#include <project/lib.hpp>
+#include <tutorial_zlib/lib.hpp>
 
 TEST_CASE( "Quick check", "[main]" ) {
     std::vector<double> values {1, 2., 3.};

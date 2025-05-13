@@ -1,3 +1,3 @@
 add_executable(app app.cpp)
 
-target_link_libraries(app PRIVATE project_core)
+target_link_libraries(app PRIVATE tutorial_zlib_core)
