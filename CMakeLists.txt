@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15...4.0)
 
 project(
     tutorial_zlib
-    VERSION 1.0.0.0
+    VERSION 0.1.0
     DESCRIPTION "C++ CMake Template"
     LANGUAGES CXX)
 

@@ -7,9 +7,9 @@ set(HEADER_LIST "${tutorial_zlib_SOURCE_DIR}/include/tutorial_zlib/lib.hpp")
 add_library(tutorial_zlib_core lib.cpp ${HEADER_LIST})
 target_include_directories(tutorial_zlib_core PUBLIC ../include)
 
-target_link_libraries(tutorial_zlib_core ${SDL2_LIBRARIES})
-target_include_directories(tutorial_zlib_core PUBLIC ${SDL2_INCLUDE_DIRS})
-target_compile_options(tutorial_zlib_core PUBLIC ${SDL2_CFLAGS_OTHER})
+target_link_libraries(tutorial_zlib_core ${ZLIB_LIBRARIES})
+target_include_directories(tutorial_zlib_core PUBLIC ${ZLIB_INCLUDE_DIRS})
+target_compile_options(tutorial_zlib_core PUBLIC ${ZLIB_CFLAGS_OTHER})
 
 
 # IDEs should put the headers in a nice place
